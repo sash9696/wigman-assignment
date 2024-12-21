@@ -1,6 +1,6 @@
 import React from "react";
 
-function PiggyBankIcon(height = 14, width = 14) {
+function PiggyBankIcon({height = 14, width = 14}) {
   return (
     <svg
       width={width}

@@ -1,6 +1,6 @@
 import React from "react";
 
-function CoinsIcon(height = 14, width = 14) {
+function CoinsIcon({ height = 14, width = 14 }) {
   return (
     <svg
       width={width}
