@@ -1,15 +1,18 @@
-import React from 'react'
-import './App.css'
+// internal components
+import { NavigationPanel,Header } from "./components";
+import "./App.css";
+import MainContent from "./containers/MainContent";
 
-// src/App.jsx
 
-function App() {
+export default function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-blue-500">Hello, Tailwind CSS!</h1>
+    <div className="h-screen w-screen flex flex-col md:flex-row">
+      <NavigationPanel />
+
+      <div className="p-5 pl-10 w-full md:ml-[60px]">
+        <Header />
+        <MainContent />
+      </div>
     </div>
   );
 }
-
-export default App;
-
