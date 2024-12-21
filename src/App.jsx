@@ -3,7 +3,10 @@ import { NavigationPanel,Header } from "./components";
 import "./App.css";
 import MainContent from "./containers/MainContent";
 
-
+// Overview → Summary
+// Insights → Analytics
+// Orders → Purchases
+// Home → MainContent
 export default function App() {
   return (
     <div className="h-screen w-screen flex flex-col md:flex-row">
